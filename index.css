@@ -40,17 +40,43 @@ a, b, i, strong, mark, em, code {
 
 /* ---------배경--------- */
 
-body {
+/* body {
     background-image: url(./img/background_PC.png);
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-attachment: fixed;
     background-size:cover;
-    }
+    } */
 
 @media screen and  (max-width: 992px) {
     body {background-image: url(./img/background_MO.png);}
 }
+
+
+
+
+
+.bg_PC {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/background_PC.png");
+    background-size: cover;
+    background-position: center center;
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: -10;}
+
+
+
+
+
+
+
+
+
 
 
 
