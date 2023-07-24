@@ -40,21 +40,41 @@ a, b, i, strong, mark, em, code {
 
 /* ---------배경--------- */
 
-body {
-    background-image: url(./img/background_PC.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-attachment: fixed;
-    background-size:cover;
-    }
+.background .bg_PC {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/background_PC.png");
+    background-size: cover;
+    background-position: center center;
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: -10;}
+
+.background .bg_MO {display: none;}
+
+
+
+
 
 @media screen and  (max-width: 992px) {
-    body {background-image: url(./img/background_MO.png);}
+    .background .bg_MO {
+        display: inline;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("./img/background_MO.png");
+        background-size: cover;
+        background-position: center center;
+        transform: translateZ(0);
+        will-change: transform;
+        z-index: -10;}
+    .background .bg_PC {display: none;}
 }
-
-
-
-
 
 
 
@@ -187,8 +207,6 @@ body {
 
 @media screen and  (max-width: 992px) {
     .cooperation01 {padding-top: 300px;}
-    
-    .cooperation01 .gallery01 {}
     
     .cooperation01 .gallery01 > li {padding: 0 2px;}
     

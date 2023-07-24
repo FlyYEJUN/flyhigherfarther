@@ -48,15 +48,14 @@ a, b, i, strong, mark, em, code {
     background-size:cover;
     } */
 
-@media screen and  (max-width: 992px) {
+/* @media screen and  (max-width: 992px) {
     body {background-image: url(./img/background_MO.png);}
 }
+ */
 
 
 
-
-
-.bg_PC {
+.background .bg_PC {
     position: fixed;
     top: 0;
     left: 0;
@@ -69,9 +68,27 @@ a, b, i, strong, mark, em, code {
     will-change: transform;
     z-index: -10;}
 
+.background .bg_MO {display: none;}
 
 
 
+
+@media screen and  (max-width: 992px) {
+    .background .bg_MO {
+        display: inline;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("./img/background_MO.png");
+        background-size: cover;
+        background-position: center center;
+        transform: translateZ(0);
+        will-change: transform;
+        z-index: -10;}
+    .background .bg_PC {display: none;}
+}
 
 
 
