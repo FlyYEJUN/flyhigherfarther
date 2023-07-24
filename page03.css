@@ -40,19 +40,6 @@ a, b, i, strong, mark, em, code {
 
 /* ---------배경--------- */
 
-/* body {
-    background-image: url(./img/background_PC.png);
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-attachment: fixed;
-    background-size:cover;
-    } */
-
-/* @media screen and  (max-width: 992px) {
-    body {background-image: url(./img/background_MO.png);}
-}
- */
-
 
 
 .background .bg_PC {
@@ -146,7 +133,7 @@ a, b, i, strong, mark, em, code {
 .footer01 {
     text-align: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 200px;
     margin-bottom: 50px;
     line-height: 100%;}
 
@@ -174,44 +161,108 @@ a, b, i, strong, mark, em, code {
 
 /* ---------메인--------- */
 
-.main_01 {
-    text-align: center;
-    justify-content: center;}
-
-.main_01 > img {
+.notice_board {
     text-align: center;
     justify-content: center;
-    width: 800px;
-    margin-top: 400px;
-    margin-bottom: 80px;}
+    padding: 300px 20% 0 20%;}
 
-.main_01 > p {
-    font-size: 14px;
-    letter-spacing: 1px;
+.notice_board > p {
+    font-size: 12px;
     font-style: italic;
-}
-.main_01 .MO02 {display: none;}
+    padding-bottom: 80px;
+    border: 1px #fff;
+    border-style: solid;
+    border-width: 0 0 1px 0;}
+
+
+
+.notice_board .board_cat {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px rgba(255, 255, 255, 0.5);
+    border-style: solid;
+    border-width: 0 0 1px 0;}
+
+.notice_board .board_cat > a {
+    text-align: center;
+    justify-content: center;
+    display: table-cell;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;}
+
+.notice_board .board_cat .cat {
+    width: 120px;
+    font-size: 11px;}
+
+.notice_board .board_cat .title {
+    width: 400px;
+    text-align: left;}
+
+.notice_board .board_cat .title > span {
+        font-size: 14px;}
+
+
+
+
 
 
 @media screen and  (max-width: 992px) {
-    .main01 {line-height: 100%;}
-    .main_01 > img {
-        width: 100%;
-        padding: 0 100px;
-        margin-top: 350px;
-        margin-bottom: 50px;}
-    .main_01 > p {
-        font-size: 13px;
-        letter-spacing: 0px;
-        padding: 0 20px;
-    }
-    .main_01 .MO02 {display: inline;}
-    .main_01 .PC02 {display: none; }
+    .notice_board {
+        padding: 300px 5% 0 5%;}
+    
+    .notice_board > p {
+        padding-bottom: 60px;}
+    
+    
+    .notice_board .board_cat > a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;}
+    
+    .notice_board .board_cat .cat {
+        width: 60px;
+        font-size: 11px;}
+    
+    .notice_board .board_cat .title {width: 250px;}
+        
+    .notice_board .board_cat .title > span {font-size: 13px;}
 }
 
 
-@media screen and  (max-width: 767px) {
-    .main_01 > img {
-        padding: 0 20px;
-}
+
+
+
+
+    
+/* -------------------------03-1------------------------------- */
+
+.notice01 {
+    text-align: center;
+    justify-content: center;
+    padding: 300px 25% 0 25%;}
+
+.notice01 p {padding-bottom: 100px;}
+
+.notice01 .QandA {
+    font-size: 15px;
+    padding-bottom: 50px;
+    line-height: 200%;
+    text-align: left;}
+
+
+
+@media screen and  (max-width: 992px) {
+    .notice01 {
+        padding: 300px 7% 0 7%;}
+    
+    .notice01 p {padding-bottom: 70px;}
+    
+    .notice01 .QandA {
+        font-size: 14px;
+        padding-bottom: 50px;
+        line-height: 170%;}
 }

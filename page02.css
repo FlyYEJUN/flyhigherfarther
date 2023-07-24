@@ -52,7 +52,6 @@ a, b, i, strong, mark, em, code {
     background-position: center center;
     transform: translateZ(0);
     z-index: -10;}
-.background .bg_PC > img {width: 100%;}
 
 .background .bg_MO {display: none;}
 
