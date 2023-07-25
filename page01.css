@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    font-size: 18px;}
+
+html, body {margin: 0;}
+h1, h2, h3, h4, h5, h6, figure, p {margin: 0; color: #fff;}
+
+
+h2 {font-size: 25px;
+    font-family: 'Gaegu';}
+h3 {font-size: 17px;}
+p {
+    font-size: 13px;
+    font-family: 'Noto Sans KR';
+    font-weight: 300;
+}
+a {text-decoration: none;}
+
+ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;}
+
+img {vertical-align: middle;}
+table {border-collapse: collapse;}
+
+a, b, i, strong, mark, em, code {
+    display: inline-block;}
+
+#a::-webkit-scrollbar {display: none;}
+
+
+
+
+
+/* ----------------------------------------------------- */
+
+
+
+
+/* ---------배경--------- */
+
+
+.background .bg_PC {
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./img/background_PC.png");
+    background-size: cover;
+    background-position: 50% 0%;
+    transform: translateZ(0);
+    z-index: -10;}
+
+.background .bg_MO {display: none;}
+
+
+
+
+@media screen and  (max-width: 992px) {
+    .background .bg_MO {
+        display: inline;
+        text-align: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("./img/background_MO.png");
+        background-size: cover;
+        background-position: 50% 0%;
+        transform: translateZ(0);
+        z-index: -10;}
+    .background .bg_MO img {width: 100%;}
+    .background .bg_PC {display: none;}
+}
+
+
+
+
+
+
+
+
+/* ---------헤더 / 카테고리--------- */
+
+.header{
+    visibility: visible;
+    position: fixed;
+    text-align: center;
+    justify-content: center;
+    width: 100%;}
+
+.hd {
+    padding-top: 50px;
+    width: 100%;}
+
+.hd img {width: 180px;}
+
+.category_cst {
+    visibility: visible;
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;}
+
+.category_cst > li > a > img {
+    height: 35px;
+    margin: 30px;}
+
+
+@media screen and  (max-width: 992px) {
+    .hd {padding-top: 40px;}
+    .hd img {width: 130px;}
+    .category_cst {margin-top: 30px !important;}
+    .category_cst > li > a > img {
+        height: 25px;
+        margin: 16px;}
+    }
+
+@media screen and  (max-width: 767px) {}
+
+
+
+
+
+
+/* ---------하단--------- */
+
+.footer01 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    line-height: 100%;}
+
+.footer01 > p {
+    font-size: 11px;}
+
+.footer01 .MO01 {display: none;}
+
+@media screen and  (max-width: 992px) {
+    .footer01 {line-height: 90%;}
+    .footer01 .MO01 {display: inline;}
+    .footer01 .PC01 {display: none; }
+    .footer01 > p {font-size: 11px; line-height: 50% !important;}
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------메인--------- */
+
+.main_01 {
+    text-align: center;
+    justify-content: center;}
+
+.main_01 > img {
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+    margin-top: 400px;
+    margin-bottom: 80px;}
+
+.main_01 .MO02 {display: none;}
+
+
+@media screen and  (max-width: 992px) {
+    .main01 {line-height: 100%;}
+    .main_01 > img {
+        width: 100%;
+        padding: 0 100px;
+        margin-top: 350px;
+        margin-bottom: 50px;}
+}
+
+
+@media screen and  (max-width: 767px) {
+    .main_01 > img {
+        padding: 0 20px;
+}
+}
