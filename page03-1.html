@@ -12,6 +12,43 @@
 
 
 <body>
+
+    <!----------------------- 마우스 커서 ---------------------------->
+
+
+
+    
+    <div class="costom-cursor"><img src="./img/cursor.png" alt=""> </div>
+
+    <style>
+        *{cursor: none;}
+        .costom-cursor {
+            position: fixed;
+            z-index: 100;
+            border: 1px solid rgb(255, 255, 255); /* 마우스커서 */
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            pointer-events: none;}
+    </style>
+
+    <script>
+        const cursorPointed = document.querySelector('.costom-cursor');
+        const moveCursor = (e) => {
+            const mouseY = e.clientY;
+            const mouseX = e.clientX;
+            cursorPointed.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;}
+        window.addEventListener('mousemove', moveCursor);
+    </script>
+
+
+
+
+
+
+<!----------------------- 배경 ---------------------------->
+
+
     <div class="background">
         <div class="bg_PC">
             <img src="./img/background_PC.png" alt=""></imgsrc>
