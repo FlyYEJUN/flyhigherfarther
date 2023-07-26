@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-size: 18px;}
+    font-size: 18px;
+    cursor: none;}
 
 html, body {margin: 0;}
 h1, h2, h3, h4, h5, h6, figure, p {margin: 0; color: #fff;}
@@ -29,6 +30,18 @@ a, b, i, strong, mark, em, code {
 
 #a::-webkit-scrollbar {display: none;}
 
+.costom-cursor {
+    position: fixed;
+    z-index: 100;
+    border: 1px solid rgb(255, 255, 255); /* 마우스커서 */
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    pointer-events: none;}
+
+@media screen and  (max-width: 992px) {
+    .costom-cursor {display: none;}
+    *{cursor: inline !important;}}
 
 
 
@@ -192,19 +205,21 @@ a, b, i, strong, mark, em, code {
     display: table-cell;
     position: relative;
     display: inline-block;
-    padding: 0 30px;}
+    padding: 0 20px;}
 
 .cooperation01 .gallery01 > li > a > img {width: 250px;}
 
 .cooperation01 .gallery01 > li .c_name {
     text-align: left;
     color: #fff;
-    padding: 0 20px;}
+    padding: 0 30px;}
 
-.cooperation01 .gallery01 > li .c_name > P1 {font-size: 14px;}
-.cooperation01 .gallery01 > li .c_name > P2 {font-size: 11px;}
-.cooperation01 .gallery01 > li .c_name > P3 {font-size: 11px;}
-
+.cooperation01 .gallery01 > li .c_name > .name {font-size: 15px;}
+.cooperation01 .gallery01 > li .c_name > .twitter {font-size: 11px;}
+.cooperation01 .gallery01 > li .c_name > .c_contents {
+    font-size: 12px;
+    display: block;
+    padding-top: 10px;}
 
 
 
@@ -219,9 +234,12 @@ a, b, i, strong, mark, em, code {
         padding: 0 5px 25px 5px;
         line-height: 80%;}
     
-    .cooperation01 .gallery01 > li .c_name > P1 {font-size: 13px;}
-    .cooperation01 .gallery01 > li .c_name > P2 {font-size: 10px; letter-spacing: -0.7px;}
-    .cooperation01 .gallery01 > li .c_name > P3 {font-size: 11px;}
+    .cooperation01 .gallery01 > li .c_name > .name {font-size: 13px;}
+    .cooperation01 .gallery01 > li .c_name > .twitter {
+        font-size: 10px;
+        letter-spacing: -0.7px;
+        display: block;}
+    .cooperation01 .gallery01 > li .c_name > .c_contents {font-size: 11px;}
 
 
 

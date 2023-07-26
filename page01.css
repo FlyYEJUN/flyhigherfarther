@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-    font-size: 18px;}
+    font-size: 18px;
+    cursor: none;}
 
 html, body {margin: 0;}
 h1, h2, h3, h4, h5, h6, figure, p {margin: 0; color: #fff;}
@@ -29,11 +30,20 @@ a, b, i, strong, mark, em, code {
 
 #a::-webkit-scrollbar {display: none;}
 
+.costom-cursor {
+    position: fixed;
+    z-index: 100;
+    border: 1px solid rgb(255, 255, 255); /* 마우스커서 */
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    pointer-events: none;}
 
+@media screen and  (max-width: 992px) {
+    .costom-cursor {display: none;}
+    *{cursor: inline !important;}}
 
-
-
-
+    
 /* ----------------------------------------------------- */
 
 
@@ -181,7 +191,7 @@ a, b, i, strong, mark, em, code {
         width: 100%;
         padding: 0 100px;
         margin-top: 280px;
-        margin-bottom: 0px;}
+        margin-bottom: 40px;}
 }
 
 
