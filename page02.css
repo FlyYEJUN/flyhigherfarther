@@ -31,6 +31,7 @@ a, b, i, strong, mark, em, code {
 #a::-webkit-scrollbar {display: none;}
 
 .costom-cursor {
+    transform: translate3d(1230px, 700px, 0px);
     position: fixed;
     z-index: 100;
     border: 1px solid rgb(255, 255, 255); /* 마우스커서 */
@@ -39,7 +40,7 @@ a, b, i, strong, mark, em, code {
     border-radius: 50%;
     pointer-events: none;}
 
-@media screen and  (max-width: 992px) {
+@media screen and  (max-width: 933px) {
     .costom-cursor {display: none;}
     *{cursor: inline !important;}}
 
@@ -152,9 +153,11 @@ a, b, i, strong, mark, em, code {
 /* ---------하단--------- */
 
 .footer01 {
+    clear: both;
+    /* flex-direction: column-reverse; */
     text-align: center;
     justify-content: center;
-    margin-top: 150px;
+    padding-top: 150px;
     margin-bottom: 50px;
     line-height: 100%;}
 
@@ -168,9 +171,7 @@ a, b, i, strong, mark, em, code {
     .footer01 .MO01 {display: inline;}
     .footer01 .PC01 {display: none; }
     .footer01 > p {font-size: 11px; line-height: 50% !important;}
-    
 }
-
 
 
 
@@ -182,65 +183,79 @@ a, b, i, strong, mark, em, code {
 
 /* ---------메인--------- */
 
+
+
 .cooperation01 {
     text-align: center;
     justify-content: center;
-    padding-top: 300px;}
+}
 
 .cooperation01 > p {
     font-size: 12px;
     font-style: italic;
-    padding-bottom: 30px;
-    }
+    padding-top: 300px;
+    padding-bottom: 30px;}
+    
 
-.cooperation01 .gallery01 {
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    }
+.gallery01{
+    list-style:none;
+    padding:0 20%;
+}
 
-.cooperation01 .gallery01 > li {
-    text-align: center;
-    justify-content: center;
-    display: table-cell;
-    position: relative;
-    display: inline-block;
-    padding: 0 20px;}
+.gallery01 li{
+    float:left;
+    padding:10px;
+    width:100%;
+}
 
-.cooperation01 .gallery01 > li > a > img {width: 250px;}
+.gallery01 li img{
+    width:100%;}
 
-.cooperation01 .gallery01 > li .c_name {
+
+.c_name {
     text-align: left;
     color: #fff;
-    padding: 0 30px;}
+    padding: 0 15px;}
 
-.cooperation01 .gallery01 > li .c_name > .name {font-size: 15px;}
-.cooperation01 .gallery01 > li .c_name > .twitter {font-size: 11px;}
-.cooperation01 .gallery01 > li .c_name > .c_contents {
+.name {font-size: 15px;}
+.twitter {font-size: 11px;}
+.c_contents {
     font-size: 12px;
     display: block;
     padding-top: 10px;}
 
 
 
-@media screen and  (max-width: 992px) {
-    .cooperation01 {padding-top: 300px;}
-    
-    .cooperation01 .gallery01 > li {padding: 0 2px;}
-    
-    .cooperation01 .gallery01 > li > a > img {width: 110px;}
-    
-    .cooperation01 .gallery01 > li .c_name {
-        padding: 0 5px 25px 5px;
-        line-height: 80%;}
-    
-    .cooperation01 .gallery01 > li .c_name > .name {font-size: 13px;}
-    .cooperation01 .gallery01 > li .c_name > .twitter {
-        font-size: 10px;
-        letter-spacing: -0.7px;
-        display: block;}
-    .cooperation01 .gallery01 > li .c_name > .c_contents {font-size: 11px;}
 
-
-
+/* 933px 이상일때 */
+@media (min-width:933px){
+	.gallery01 li{width: 25%;}
+	.gallery01 li:nth-child(4n+1){clear:both;}
 }
+
+
+/* 601px 이상 ~ 932px 이하일때 */
+@media (min-width:601px) and (max-width:932px) { 
+	.gallery01 li {width: 28%; float: center;}
+	.gallery01 li:nth-child(3n+1){clear:both;}
+    .c_name {padding: 0 5px 25px 5px; line-height: 80%;}
+    .name {font-size: 13px;}
+    .twitter {font-size: 10px; letter-spacing: -0.7px;}
+    .c_contents {font-size: 11px;}
+} 
+
+/* 600px 이하일때 */
+@media (max-width:600px) {
+    .gallery01{padding:0 5%;}
+	.gallery01 li {width: 32%;}
+	.gallery01 li:nth-child(3n+1){clear:both;}
+    .c_name {padding: 0 5px 25px 5px; line-height: 80%;}
+    .name {font-size: 13px;}
+    .twitter {font-size: 10px; letter-spacing: -0.7px;}
+    .c_contents {font-size: 11px;}
+}
+
+
+
+
+
