@@ -187,8 +187,7 @@ a, b, i, strong, mark, em, code {
 
 .cooperation01 {
     text-align: center;
-    justify-content: center;
-}
+    justify-content: center;}
 
 .cooperation01 > p {
     font-size: 12px;
@@ -199,14 +198,11 @@ a, b, i, strong, mark, em, code {
 
 .gallery01{
     list-style:none;
-    padding:0 20%;
-}
+    padding:0 20%;}
 
 .gallery01 li{
     float:left;
-    padding:10px;
-    width:100%;
-}
+    padding:10px;}
 
 .gallery01 li img{
     width:100%;}
@@ -228,24 +224,14 @@ a, b, i, strong, mark, em, code {
 
 
 /* 933px 이상일때 */
-@media (min-width:933px){
+@media (min-width:993px){
 	.gallery01 li{width: 25%;}
 	.gallery01 li:nth-child(4n+1){clear:both;}
 }
 
 
-/* 601px 이상 ~ 932px 이하일때 */
-@media (min-width:601px) and (max-width:932px) { 
-	.gallery01 li {width: 28%; float: center;}
-	.gallery01 li:nth-child(3n+1){clear:both;}
-    .c_name {padding: 0 5px 25px 5px; line-height: 80%;}
-    .name {font-size: 13px;}
-    .twitter {font-size: 10px; letter-spacing: -0.7px;}
-    .c_contents {font-size: 11px;}
-} 
-
 /* 600px 이하일때 */
-@media (max-width:600px) {
+@media (max-width:992px) {
     .gallery01{padding:0 5%;}
 	.gallery01 li {width: 32%;}
 	.gallery01 li:nth-child(3n+1){clear:both;}
