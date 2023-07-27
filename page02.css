@@ -187,7 +187,7 @@ a, b, i, strong, mark, em, code {
 
 .cooperation01 {
     text-align: center;
-    justify-content: center;}
+    justify-content: center; }
 
 .cooperation01 > p {
     font-size: 12px;
@@ -198,15 +198,18 @@ a, b, i, strong, mark, em, code {
 
 .gallery01{
     list-style:none;
-    padding:0 20%;}
+    padding:0 20%;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+    
 
 .gallery01 li{
-    float:left;
-    padding:10px;}
+    float: left;
+    padding:10px; justify-content: center;}
 
-.gallery01 li img{
-    width:100%;}
-
+.gallery01 li a img{width:100%;}
 
 .c_name {
     text-align: left;
@@ -232,7 +235,7 @@ a, b, i, strong, mark, em, code {
 
 /* 600px 이하일때 */
 @media (max-width:992px) {
-    .gallery01{padding:0 5%;}
+    .gallery01{padding:0 2% 0 5%;}
 	.gallery01 li {width: 32%;}
 	.gallery01 li:nth-child(3n+1){clear:both;}
     .c_name {padding: 0 5px 25px 5px; line-height: 80%;}
