@@ -32,6 +32,7 @@ a, b, i, strong, mark, em, code {
 #a::-webkit-scrollbar {display: none;}
 
 .costom-cursor {
+    transform: translate3d(1230px, 700px, 0px);
     position: fixed;
     z-index: 100;
     border: 1px solid rgb(255, 255, 255); /* 마우스커서 */
