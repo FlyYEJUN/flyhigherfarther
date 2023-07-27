@@ -40,9 +40,9 @@ a, b, i, strong, mark, em, code {
     border-radius: 50%;
     pointer-events: none;}
 
-@media screen and  (max-width: 992px) {
-    .costom-cursor {display: none;}
-    *{cursor: inline !important;}}
+    @media screen and  (max-width: 933px) {
+        /* .costom-cursor {display: none;} */
+        *{cursor: inline !important;}}
 
 
 

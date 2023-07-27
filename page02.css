@@ -41,7 +41,7 @@ a, b, i, strong, mark, em, code {
     pointer-events: none;}
 
 @media screen and  (max-width: 933px) {
-    .costom-cursor {display: none;}
+    /* .costom-cursor {display: none;} */
     *{cursor: inline !important;}}
 
 
