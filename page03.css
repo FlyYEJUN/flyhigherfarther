@@ -149,7 +149,7 @@ a, b, i, strong, mark, em, code {
 .footer01 {
     text-align: center;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 50px;
     line-height: 100%;}
 
@@ -283,3 +283,34 @@ a, b, i, strong, mark, em, code {
         padding-bottom: 50px;
         line-height: 170%;}
 }
+
+
+
+
+/* -------------------------03-2------------------------------- */
+
+.notice02 {
+    text-align: center;
+    justify-content: center;
+    padding: 300px 25% 0 25%;}
+
+.notice02 p {padding-bottom: 100px;}
+
+.notice02 .schedule > img {
+    text-align: center;
+    justify-content: center;
+    width: 800px;}
+
+
+@media screen and  (max-width: 992px) {
+    .notice02 {
+        line-height: 100%;
+        padding: 300px 0 0 0;}
+
+    .notice02 p {padding-bottom: 50px;}
+
+    .notice02 .schedule > img {
+        width: 100%;
+        padding: 0 2px;}}
+
+
