@@ -299,7 +299,7 @@ a, b, i, strong, mark, em, code {
 .notice02 .schedule > img {
     text-align: center;
     justify-content: center;
-    width: 800px;}
+    width: 100%;}
 
 
 @media screen and  (max-width: 992px) {
