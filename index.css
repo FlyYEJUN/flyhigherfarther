@@ -103,6 +103,8 @@ a, b, i, strong, mark, em, code {
 
 /* ---------헤더 / 카테고리--------- */
 
+
+
 .header{
     visibility: visible;
     position: fixed;
@@ -119,24 +121,23 @@ a, b, i, strong, mark, em, code {
 .category_cst {
     visibility: visible;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 35px;
     display: flex;}
 
 .category_cst > li > a > img {
     height: 35px;
-    margin: 30px;}
+    margin: 20px;}
 
 
 @media screen and  (max-width: 992px) {
     .hd {padding-top: 40px;}
     .hd img {width: 130px;}
-    .category_cst {margin-top: 30px !important;}
+    .category_cst {margin-top: 35px !important;}
     .category_cst > li > a > img {
         height: 25px;
-        margin: 16px;}
+        margin: 7px;}
     }
 
-@media screen and  (max-width: 767px) {}
 
 
 
