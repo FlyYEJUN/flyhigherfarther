@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝑭𝑳𝒀 𝑯𝒊𝒈𝒉𝒆𝒓&𝑭𝒂𝒓𝒕𝒉𝒆𝒓</title>
+    <link rel="stylesheet" href="./page02_copy.css" />
+    
+    <!-- Favicon.ico Link -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon"/>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="./img/favicon.ico" />
+
+    <!-- 오픈그래프 -->
+    <meta property="og:url" content="https://bit.ly/flyhigherfarther"> <!-- 웹사이트 링크 -->
+    <meta property="og:image" content="./img/social_preview.png"> <!-- 오픈그래프 이미지 -->
+    <meta property="og:title" content="𝑭𝑳𝒀 𝑯𝒊𝒈𝒉𝒆𝒓&𝑭𝒂𝒓𝒕𝒉𝒆𝒓"> <!-- 오픈그래프 타이틀 -->
+    <meta property="og:description" content="2023. 09. 10 (Sun) ~ 2023. 09. 12 (Tue) "> <!-- 오픈그래프 설명 -->
+
+</head>
+
+
+
+<body>
+
+    <!----------------------- 마우스 커서 ---------------------------->
+
+
+    <div class="costom-cursor"><img src="./img/cursor.png" alt=""> </div>
+
+
+    <script>
+        const cursorPointed = document.querySelector('.costom-cursor');
+        const moveCursor = (e) => {
+            const mouseY = e.clientY;
+            const mouseX = e.clientX;
+            cursorPointed.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;}
+        window.addEventListener('mousemove', moveCursor);
+    </script>
+
+
+
+
+
+
+<!----------------------- 배경 ---------------------------->
+
+    <div class="background">
+        <div class="bg_PC">
+            <img src="./img/background_PC.png" alt=""></imgsrc>
+        </div>
+        <div class="bg_MO">
+            <img src="./img/background_MO.png" alt=""></imgsrc>
+        </div>
+    </div>
+
+
+
+    <header class="header">
+        <div class="hd"> <a href="./index.html" >
+            <img src="./img/hd.png" alt=""> </a>
+        </div>
+        
+        <ul class="category_cst">
+            <li> <!-- Cafe&Pub -->
+                <a href="./page01.html">
+                <img src="./img/ca01.png" alt=""> </a>
+            </li>
+            <li> <!-- Cooperation -->
+                <a href="./page02.html">
+                <img src="./img/ca02.png" alt=""> </a>
+            </li>
+            <li> <!-- Notice -->
+                <a href="./page03.html" >
+                <img src="./img/ca03.png" alt=""> </a>
+            </li>
+            <li class="twitter">
+                <a href="https://twitter.com/Fly_H_and_F?s=20" target="_blank">
+                <img src="./img/twitter.png" alt=""> </a>
+            </li>
+        </ul>
+
+        </div>
+    </header>
+
+
+
+<!--------------------------------------------------->
+
+
+    <div class="cooperation01">
+        <p>행사를 빛내준 협력진 분들 모두 감사드립니다.</p>
+        
+
+
+
+
+
+        <ul class="gallery01">
+            <li>
+                <div id ="go1" class="button">
+                    <img src="./img/구름/대지 1.png" alt="">
+                </div>
+                <div class="c_name">
+                    <span class="name">. 님</span>
+                    <span class="twitter">@teuwite89950187</span>
+                    <span class="c_contents">포토카드</span>
+                </div>
+
+                <div id="bg1" class="hidden"></div>
+                <div id="popup1" class="hidden">
+                    <img src="./img/test1.png" alt="">
+                    <div id="exit1" class="X-button">X</div>
+                </div>
+
+                <script>
+                    const go1 = document.querySelector("#go1");
+                    const bg1 = document.querySelector("#bg1");
+                    const popup1 = document.querySelector("#popup1");
+                    const exit1 = document.querySelector("#exit1");
+            
+                    go1.addEventListener("click",function(){
+                        bg1.classList.remove("hidden");
+                        popup1.classList.remove("hidden");
+                    });
+                    exit1.addEventListener("click",function(){
+                        bg1.classList.add("hidden");
+                        popup1.classList.add("hidden");
+                    });
+                </script>
+            </li>
+
+            <li>
+                <div id ="go2" class="button">
+                    <img src="./img/구름/대지 17.png" alt="">
+                </div>
+                <div class="c_name">
+                    <span class="name">Dinaou 님</span>
+                    <span class="twitter">@Dinaou_</span>
+                    <span class="c_contents">포토카드</span>
+                </div>
+
+                <div id="bg2" class="hidden"></div>
+
+                <div id="popup2" class="hidden">
+                    <img src="./img/test2.png" alt="">
+                    <div id="exit2" class="X-button">X</div>
+                </div>
+
+
+                <script>
+                    const go2 = document.querySelector("#go2");
+                    const bg2 = document.querySelector("#bg2");
+                    const popup2 = document.querySelector("#popup2");
+                    const exit2 = document.querySelector("#exit2");
+            
+                    go2.addEventListener("click",function(){
+                        bg2.classList.remove("hidden");
+                        popup2.classList.remove("hidden");
+                    });
+                    exit2.addEventListener("click",function(){
+                        bg2.classList.add("hidden");
+                        popup2.classList.add("hidden");
+                    });
+                </script>
+
+
+
+            </li>
+
+        </ul>
+        
+
+
+
+
+
+
+
+
+        
+
+
+
+
+        
+
+
+
+<!-- 
+        <ul class="gallery01">
+            <li>
+                <a href="" > <img src="./img/구름/대지 1.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">. 님</span>
+                    <span class="twitter">@teuwite89950187</span>
+                    <span class="c_contents">포토카드</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 17.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">Dinaou 님</span>
+                    <span class="twitter">@Dinaou_</span>
+                    <span class="c_contents">포토카드</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 2.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">HAVi 님</span>
+                    <span class="twitter">@havi_draw</span>
+                    <span class="c_contents">등신대</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 3.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">Heumm 님</span>
+                    <span class="twitter">@oortxx</span>
+                    <span class="c_contents">포스터</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 4.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">SUUU 님</span>
+                    <span class="twitter">@SUUU_club</span>
+                    <span class="c_contents">홈페이지</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 5.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">가지절임 님</span>
+                    <span class="twitter">@plavezzang</span>
+                    <span class="c_contents">포토카드</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 6.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">고란이 님</span>
+                    <span class="twitter">@go__lani</span>
+                    <span class="c_contents">포토카드</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 7.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">너만의 용사 님</span>
+                    <span class="twitter">@loveyongsa412</span>
+                    <span class="c_contents">포토카드</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 8.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">니사랑하는생각 님</span>
+                    <span class="twitter">@nisaLUV_S2</span>
+                    <span class="c_contents">미니키링</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 9.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">랄람 님</span>
+                    <span class="twitter">@doralrams</span>
+                    <span class="c_contents">띠부띠부씰</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 10.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">민트송이 님</span>
+                    <span class="twitter">@Mint__0221</span>
+                    <span class="c_contents">포토카드</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 18.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">반투명 님</span>
+                    <span class="twitter">@opacity50</span>
+                    <span class="c_contents">오프너</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 11.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">버거 님</span>
+                    <span class="twitter">@bamby_buger</span>
+                    <span class="c_contents">틴케이스</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 12.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">실버토끼 님</span>
+                    <span class="twitter">@silver_tokki</span>
+                    <span class="c_contents">조각스티커</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 13.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">얀 님</span>
+                    <span class="twitter">@siyawn2018
+                    </span>
+                    <span class="c_contents">현수막 (액자)</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 14.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">이응 님</span>
+                    <span class="twitter">@hon_hee07</span>
+                    <span class="c_contents">증명사진</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 15.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">탁약 님</span>
+                    <span class="twitter">@rtgo_
+                    </span>
+                    <span class="c_contents">포토카드</span>
+                </div>
+            </li>
+            <li>
+                <a href="" > <img src="./img/구름/대지 16.png" alt=""> </a>
+                <div class="c_name">
+                    <span class="name">헌부리 님</span>
+                    <span class="twitter">@marugge_eee</span>
+                    <span class="c_contents">포토카드</span>
+                </div>
+            </li>
+        </ul>
+
+
+    </div> -->
+<!--------------------------------------------------->
+
+
+
+
+<!--------------------------------------------------->
+
+
+
+
+    <footer>
+        <div class="footer01">
+            <p class="PC01">
+                𝑭𝑳𝒀 𝑯𝒊𝒈𝒉𝒆𝒓 & 𝑭𝒂𝒓𝒕𝒉𝒆𝒓 ｜ PLAVE leader 'Nam YEJUN's unofficial event<br><br>
+                CONATCT ｜ fly.higher.and.farther@gmail.com <br>
+                ADDRESS ｜ Near Hongdae Station in Seoul<br>
+                © 2023 FLY Higher and Farther Corp. All rights reserved.
+            </p>
+            <p class="MO01">
+                𝑭𝑳𝒀 𝑯𝒊𝒈𝒉𝒆𝒓 & 𝑭𝒂𝒓𝒕𝒉𝒆𝒓<br>
+                PLAVE leader 'Nam YEJUN's unofficial event<br><br>
+                CONATCT ｜ fly.higher.and.farther@gmail.com <br>
+                ADDRESS ｜ Near Hongdae Station in Seoul<br>
+                © 2023 FLY Higher and Farther Corp. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
