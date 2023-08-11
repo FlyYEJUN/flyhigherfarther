@@ -98,7 +98,8 @@
 
 
         <ul class="gallery01">
-            <li>
+
+            <li> <!-- . 님 -->
                 <div id ="go1" class="button">
                     <img src="./img/구름/대지 1.png" alt="">
                 </div>
@@ -110,8 +111,7 @@
 
                 <div id="bg1" class="hidden"></div>
                 <div id="popup1" class="hidden">
-                    <img src="./img/test1.png" alt="">
-                    <div id="exit1" class="X-button">X</div>
+                    <img id="exit1" src="./img/test1.png" alt="">
                 </div>
 
                 <script>
@@ -119,19 +119,18 @@
                     const bg1 = document.querySelector("#bg1");
                     const popup1 = document.querySelector("#popup1");
                     const exit1 = document.querySelector("#exit1");
-            
+                    
                     go1.addEventListener("click",function(){
                         bg1.classList.remove("hidden");
-                        popup1.classList.remove("hidden");
-                    });
+                        popup1.classList.remove("hidden");});
                     exit1.addEventListener("click",function(){
                         bg1.classList.add("hidden");
-                        popup1.classList.add("hidden");
-                    });
+                        popup1.classList.add("hidden");});
                 </script>
             </li>
 
-            <li>
+
+            <li><!-- Dinaou 님 -->
                 <div id ="go2" class="button">
                     <img src="./img/구름/대지 17.png" alt="">
                 </div>
@@ -142,31 +141,54 @@
                 </div>
 
                 <div id="bg2" class="hidden"></div>
-
                 <div id="popup2" class="hidden">
-                    <img src="./img/test2.png" alt="">
-                    <div id="exit2" class="X-button">X</div>
+                    <img id="exit2" src="./img/test2.png" alt="">
                 </div>
-
 
                 <script>
                     const go2 = document.querySelector("#go2");
                     const bg2 = document.querySelector("#bg2");
                     const popup2 = document.querySelector("#popup2");
                     const exit2 = document.querySelector("#exit2");
-            
+                    
                     go2.addEventListener("click",function(){
                         bg2.classList.remove("hidden");
-                        popup2.classList.remove("hidden");
-                    });
+                        popup2.classList.remove("hidden");});
                     exit2.addEventListener("click",function(){
                         bg2.classList.add("hidden");
-                        popup2.classList.add("hidden");
-                    });
+                        popup2.classList.add("hidden");});
                 </script>
+            </li>
 
 
+            <li><!-- HAVi 님 -->
+                <div id ="go3" class="button">
+                    <img src="./img/구름/대지 2.png" alt="">
+                </div>
+                <div class="c_name">
+                    <span class="name">HAVi 님</span>
+                    <span class="twitter">@havi_draw</span>
+                    <span class="c_contents">등신대</span>
+                </div>
 
+                <div id="bg3" class="hidden"></div>
+                <div id="popup3" class="hidden">
+                    <img id="exit3" src="./img/test1.png" alt="">
+                </div>
+
+                <script>
+                    const go3 = document.querySelector("#go3");
+                    const bg3 = document.querySelector("#bg3");
+                    const popup3 = document.querySelector("#popup3");
+                    const exit3 = document.querySelector("#exit3");
+                    
+                    go3.addEventListener("click",function(){
+                        bg3.classList.remove("hidden");
+                        popup3.classList.remove("hidden");});
+                    exit3.addEventListener("click",function(){
+                        bg3.classList.add("hidden");
+                        popup3.classList.add("hidden");});
+                </script>
             </li>
 
         </ul>
@@ -190,22 +212,9 @@
 
 <!-- 
         <ul class="gallery01">
-            <li>
-                <a href="" > <img src="./img/구름/대지 1.png" alt=""> </a>
-                <div class="c_name">
-                    <span class="name">. 님</span>
-                    <span class="twitter">@teuwite89950187</span>
-                    <span class="c_contents">포토카드</span>
-                </div>
-            </li>
-            <li>
-                <a href="" > <img src="./img/구름/대지 17.png" alt=""> </a>
-                <div class="c_name">
-                    <span class="name">Dinaou 님</span>
-                    <span class="twitter">@Dinaou_</span>
-                    <span class="c_contents">포토카드</span>
-                </div>
-            </li>
+
+
+            
             <li>
                 <a href="" > <img src="./img/구름/대지 2.png" alt=""> </a>
                 <div class="c_name">
