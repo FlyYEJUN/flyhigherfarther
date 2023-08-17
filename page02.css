@@ -207,7 +207,7 @@ a, b, i, strong, mark, em, code {
     float: left;
     padding:10px; justify-content: center;}
 
-.gallery01 li a img{width:100%;}
+.gallery01 li .button img{width:100%;}
 
 .c_name {
     text-align: left;
@@ -246,3 +246,339 @@ a, b, i, strong, mark, em, code {
 
 
 
+
+
+
+
+
+
+
+/* --------------- 팝업 --------------- */
+
+
+
+.hidden{display: none;}
+
+
+/* . 님 */
+#bg1{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup1{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup1 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup1 {width: 85%;}}
+@media (max-width:600px) {#popup1 {width: 95%;}}
+
+
+/* Dinaou 님 */
+#bg2{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup2{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup2 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup2 {width: 85%;}}
+@media (max-width:600px) {#popup2 {width: 95%;}}
+
+
+/* HAVi 님 */
+#bg3{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup3{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup3 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup3 {width: 85%;}}
+@media (max-width:600px) {#popup3 {width: 95%;}}
+
+
+/* Heumm 님 */
+#bg4{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup4{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup4 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup4 {width: 85%;}}
+@media (max-width:600px) {#popup4 {width: 95%;}}
+
+
+/* SUUU 님 */
+#bg5{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup5{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup5 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup5 {width: 85%;}}
+@media (max-width:600px) {#popup5 {width: 95%;}}
+
+
+/* 가지절임 님 */
+#bg6{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup6{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup6 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup6 {width: 85%;}}
+@media (max-width:600px) {#popup6 {width: 95%;}}
+
+
+/* 고란이 님 */
+#bg7{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup7{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup7 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup7 {width: 85%;}}
+@media (max-width:600px) {#popup7 {width: 95%;}}
+
+
+/* 너만의 용사 님 */
+#bg8{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup8{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup8 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup8 {width: 85%;}}
+@media (max-width:600px) {#popup8 {width: 95%;}}
+
+
+/* 니사랑하는생각 님 */
+#bg9{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup9{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup9 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup9 {width: 85%;}}
+@media (max-width:600px) {#popup9 {width: 95%;}}
+
+
+/* 랄람 님 */
+#bg10{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup10{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup10 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup10 {width: 85%;}}
+@media (max-width:600px) {#popup10 {width: 95%;}}
+
+
+/* 민트송이 님 */
+#bg11{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup11{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup11 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup11 {width: 85%;}}
+@media (max-width:600px) {#popup11 {width: 95%;}}
+
+
+/* 반투명 님 */
+#bg12{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup12{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup12 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup12 {width: 85%;}}
+@media (max-width:600px) {#popup12 {width: 95%;}}
+
+
+/* 버거 님 */
+#bg13{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup13{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup13 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup13 {width: 85%;}}
+@media (max-width:600px) {#popup13 {width: 95%;}}
+
+
+/* 실버토끼 님 */
+#bg14{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup14{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup14 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup14 {width: 85%;}}
+@media (max-width:600px) {#popup14 {width: 95%;}}
+
+
+/* 얀 님 */
+#bg15{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup15{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup15 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup15 {width: 85%;}}
+@media (max-width:600px) {#popup15 {width: 95%;}}
+
+
+/* 이응 님 */
+#bg16{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup16{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup16 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup16 {width: 85%;}}
+@media (max-width:600px) {#popup16 {width: 95%;}}
+
+
+/* 탁약 님 */
+#bg17{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup17{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup17 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup17 {width: 85%;}}
+@media (max-width:600px) {#popup17 {width: 95%;}}
+
+
+/* 헌부리 님 */
+#bg18{
+    position: fixed;
+    width: 100%; height: 100%;
+    top: 0; left:0;
+    background-color: rgb(0,0,0,0.5);}
+#popup18{
+    position: fixed;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(0,0,0,0.0);
+    padding: 0; width: 30%;
+    text-align: center; height: auto;}
+#popup18 > img { text-align: center; width: 100%;}
+@media (max-width:992px) {#popup18 {width: 85%;}}
+@media (max-width:600px) {#popup18 {width: 95%;}}
