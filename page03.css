@@ -312,3 +312,66 @@ a, b, i, strong, mark, em, code {
         padding: 0 2px;}}
 
 
+
+
+        /* -------------------------03-4------------------------------- */
+
+.notice04 {
+    text-align: center;
+    justify-content: center;
+    padding: 300px 25% 0 25%;}
+
+.notice04 p {padding-bottom: 100px;}
+
+.notice04 .reservation > img {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 100px;}
+
+
+
+
+    .notice04-2 {
+        text-align: center;
+        justify-content: center;
+        padding: 0 25%;}
+
+    .notice04-2 p {
+        white-space: pre-wrap;
+        font-size: 15px;
+        padding-bottom: 10px;
+        line-height: 200%;
+        text-align: left;}
+
+
+    .notice04-2 > p > ins {font-size: 14px; color: #fff;}
+
+    .notice04-2 > p > a {font-size: 15px; color: #fff;}
+    .notice04-2 > p > a > ins {font-size: 14px; color: #fff;}
+
+
+
+
+
+
+@media screen and  (max-width: 992px) {
+    .notice04 {
+        line-height: 100%;
+        padding: 300px 0 0 0;}
+    .notice04 p {padding-bottom: 50px;}
+    .notice04 .reservation > img {
+        width: 100%;
+        padding: 0 2px 30px 2px;}
+
+
+    .notice04-2 {padding: 0 7%;}
+    .notice04-2 p {
+        padding-bottom: 70px;
+        font-size: 14px;
+        padding-bottom: 80px;
+        line-height: 170%;}
+
+    }
+
+    
