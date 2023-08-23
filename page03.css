@@ -345,10 +345,10 @@ a, b, i, strong, mark, em, code {
         text-align: left;}
 
 
-    .notice04-2 > p > ins {font-size: 14px; color: #fff;}
+    .notice04-2 > p > ins {font-size: 15px; color: #fff;}
 
     .notice04-2 > p > a {font-size: 15px; color: #fff;}
-    .notice04-2 > p > a > ins {font-size: 14px; color: #fff;}
+    .notice04-2 > p > a > ins {font-size: 15px; color: #fff;}
 
 
 
@@ -371,7 +371,10 @@ a, b, i, strong, mark, em, code {
         font-size: 14px;
         padding-bottom: 80px;
         line-height: 170%;}
-
+        
+    .notice04-2 > p > ins {font-size: 14px;}
+    .notice04-2 > p > a {font-size: 14px;}
+    .notice04-2 > p > a > ins {font-size: 14px;}
     }
 
     
