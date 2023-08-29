@@ -227,7 +227,7 @@ a, b, i, strong, mark, em, code {
 
 /* 600px 이하일때 */
 @media (max-width:992px) {
-    .gallery02 {padding:1%;}
+    .gallery02 {padding:6%;}
 	.gallery02 li {width: 50%; padding:12px;}
 	.gallery02 li:nth-child(2n+1){clear:both;}
 }
