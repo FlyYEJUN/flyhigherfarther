@@ -314,7 +314,7 @@ a, b, i, strong, mark, em, code {
 
 
 
-        /* -------------------------03-4------------------------------- */
+/* -------------------------03-4------------------------------- */
 
 .notice04 {
     text-align: center;
@@ -378,3 +378,15 @@ a, b, i, strong, mark, em, code {
     }
 
     
+
+
+
+
+ /* -------------------------03-6------------------------------- */
+
+
+.notice_board .board_cat .title .final {font-weight: 900;}
+
+@media screen and  (max-width: 992px) {
+.notice_board .board_cat .title .final {font-weight: 900;}}
+
