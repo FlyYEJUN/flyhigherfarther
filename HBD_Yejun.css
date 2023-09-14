@@ -258,14 +258,18 @@ a, b, i, strong, mark, em, code {
 .num_page > a {
     font-size: 13px;
     color: #fff;
-    padding: 0 2%;}
+    padding: 0 1%;}
 
 .num_page .now{color: #034Ea2;}
 
 
 
-
-
+@media (max-width:600px) {
+    .num_page{ padding: 0 5%; }
+    .num_page > a {
+        font-size: 12px;
+        color: #fff;
+        padding: 2% 2%;}}
 
 
 
